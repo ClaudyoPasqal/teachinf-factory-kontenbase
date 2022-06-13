@@ -1,0 +1,111 @@
+.isi{
+    background-image: url(/public/images/Background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e5e5e5;
+    background-blend-mode: darken;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.homebtn1{
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 70px;
+}
+.login1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 45%;
+    height: 430px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+#logintext{
+    display: flex;
+    justify-content: start ;
+    position: relative;
+    bottom: 30px;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 35px;
+    left: 5px;
+}
+.input{
+    width: 488px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Sen', sans-serif;
+    outline: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.admin{
+    width: 488px;
+    height: 50px;
+}
+.after{
+    width: 488px;
+    height: 50px;
+}
+#login2{
+    width: 487px;
+    height: 50px;
+    background: transparent;
+    border-radius: 1px;
+    background-color: #393939;
+    color: white;
+    text-align: center;
+    margin-right: 35px;
+    cursor: auto;  
+    position: relative;
+    left: 0px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Sen', sans-serif;
+    cursor: pointer;
+}
+#akun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #858585;
+    gap: 5px;
+    font-size: 18px;
+    font-family: 'Sen', sans-serif;
+    position: relative;
+    top: 15px;
+    right: 0px;
+}
+#register{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Sen', sans-serif;
+    color: #393939;
+}
+#form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    left: 17px;
+    bottom: 5px;
+}

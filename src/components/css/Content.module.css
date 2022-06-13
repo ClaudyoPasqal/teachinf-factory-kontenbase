@@ -1,0 +1,228 @@
+/* Head text start */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+    position: relative;   
+}
+.headtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 43px;
+    font-family: 'Vollkorn',serif;
+    font-weight: lighter;
+    word-spacing: 2px;
+    position: relative;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+}
+.satu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    background-color: transparent;
+}
+.card1{
+    width: 270px;
+    height: 275px;
+    background-color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cardT1{
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    max-width: 250px;
+}
+h6{
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+    color:#929292;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    max-width: 250px;
+}   
+.card2{
+    width: 270px;
+    height: 275px;
+    background-color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dua{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.tiga{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#desc{
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 35px;
+    left: 10px;
+    max-width: 250px;
+}
+#harga{
+    background-color: #FFFFFF;
+    color: #44B200;
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+    max-width: 250px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+#tambah{
+    margin-left: 15px;
+    width: 240px;
+    height: 40px;
+    font-family: 'Sen', sans-serif;
+    background-color: #393939;
+    color: white;
+    position: relative;
+    max-width: 250px;
+    top: 70px;
+    right: 5px;
+}
+.cardT2{
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    max-width: 250px;
+}
+#nama{
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+    color:#929292;
+    position: relative;
+    top: 45px;
+    left: 10px;
+    max-width: 250px;
+}
+#desc1{
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    top: 55px;
+    left: 10px;
+    max-width: 250px;
+}
+#harga2{
+    background-color: #FFFFFF;
+    color: #44B200;
+    font-family: 'Sen', sans-serif;
+    font-size: 18px;
+    max-width: 250px;
+    position: relative;
+    top: 90px;
+    left: 10px;
+}
+#tambah2{
+    margin-left: 15px;
+    width: 240px;
+    height: 40px;
+    font-family: 'Sen', sans-serif;
+    background-color: #393939;
+    color: white;
+    position: relative;
+    max-width: 250px;
+    top: 100px;
+    right: 5px;
+} 
+/* Content End */
+/* List Start */
+.listhead{
+    position: relative;
+    bottom: 50px;
+}
+.list{
+    position: relative;
+    top: 160px;
+    left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+.booklist{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 160px;
+} 
+.LT{
+    font-size: 24px;
+    max-width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: left;
+    color: black;
+}
+.NT{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+    color:#929292;
+    background-color: transparent;
+    position: relative;
+    left: 0px;
+    top: 10px;
+}
+.HT{
+    background-color: transparent;
+    font-size: 18px;
+    color: #44B200;
+    font-family: 'Sen', sans-serif;
+    position: relative;
+    top: 30px;
+    margin-bottom: 100px;
+}
+.buku1{
+    text-decoration: none;
+}
