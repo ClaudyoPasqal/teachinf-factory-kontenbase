@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import NavbarCss from "./css/NavbarCart.module.css"
 
 
 function NavbarCart(){
+    const [dropDownList, setDropDownList] = useState(false);
     return(
     <div className={NavbarCss.isi}>
         <div className={NavbarCss.container}>
@@ -19,15 +20,17 @@ function NavbarCart(){
 
             </div>
             <div className={NavbarCss.action}>
-                <div className={NavbarCss.profile}>
+                <div className={NavbarCss.profile} onClick={(e) => setDropDownList(!dropDownList)}>
                     <img src="../images/user.png" alt="" />
                 </div>
-                <div className={NavbarCss.menu}>
+                 {dropDownList && (
+                    <div className={NavbarCss.menu}>
                     <ul>
                         <li><img src="../images/user 2.png" alt="" /><Link to="/">Profile</Link></li>
                         <li className={NavbarCss.border}><img src="../images/logout 1.png" alt="" />Logout</li>
                     </ul>
-                </div>
+                    </div>
+                )}
             </div>
         </div>
     </div>
